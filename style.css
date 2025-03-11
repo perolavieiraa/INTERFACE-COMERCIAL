@@ -1,28 +1,113 @@
-body {
-    background-color: rgb(255, 255, 255);
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.qua {
-    background-color: rgb(207, 241, 255);
-    padding: 100px;
-    margin: 20px;
+.mc{
+width: 90%;
+margin: auto;
+padding-top: 30px;
+height: 600px;
+background-color: rgb(255, 255, 255);
 }
 
-.flex {
+.mb{
+    background-color: rgb(200, 219, 255);
+    height: 250px;
+    border-radius: 10px;
+}
+
+.mb>.flex>img{
+    height: 200px;
+}
+
+.mls{
+    width: 70%;
+}
+
+.mrs{
+    width: 30%;
+}
+
+.flex{
     display: flex;
-    color: rgb(38, 38, 197);
 }
 
-
-.extender {
-    padding-right: 600;
+.gap{
+    gap: 20px;
 }
 
-.extender2 {
-    padding-right: 400px;
+.rm{
+    margin: 0;
 }
 
-.cabecalho {
-    height: 160px;
+.rm>h1{
+    margin: 0;
 }
 
+.cilindro{
+    width: 180%;
+    background-color: rgb(110, 110, 196);
+    border-radius: 10px;
+    justify-items: center;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 100%;
+}
+
+.cilindro>p{
+    color: white;
+    margin: 0;
+}
+
+.circulo{
+    height: 1px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px;
+        margin-left: 5px;
+}
+
+.sk{
+    flex-shrink: 0;
+}
+
+h1{
+    margin: 0;
+    color: rgb(94, 94, 255);
+}
+
+.bcc{
+width: 90%;
+margin: auto;
+display: flex;
+gap: 20px;
+}
+.bcb{
+background-color: white;
+height: 150px;
+width: 160px;
+}
+
+.bcb>p{
+    margin: 0;
+    text-align: center;
+}
+
+.bcb>img{
+    width: 100%;
+}
+
+.mw{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.ma{
+    margin: auto;
+}
